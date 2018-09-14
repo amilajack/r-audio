@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "NODE_ENV=development webpack-dev-server",
     "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm run build",
     "prepublishOnly": "npm run build"
   },
   "repository": {
